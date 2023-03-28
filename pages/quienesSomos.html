@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Quienes Somos</title>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/miEstilo.css">
+</head>
+<body class="fondoSecundario">
+    <div class="container-fluid">
+        <!-------------------------------------------------------- icono -------------------------------------------------------------------------->
+        <header class="row d-flex align-items-start ">
+             <div class="col-6 col-xl-6  cardIco d-flex align-items-end justify-content-center">
+                <span>MQ</span>
+             </div>
+             <div class="col-6 col-xl-6 fontIco d-flex align-items-end">
+                <h1> Muebles <br> Quemu </h1>
+             </div>
+        </header>
+        <!-------------------------------------------------------- menu --------------------------------------------------------------------------->
+        <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid d-flex justify-content-end">
+                    <div class="row" >
+                        <div class="col-xl-12 col-12">
+                            <!-- menu hamburguesa  -->
+                            <button class="navbar-toggler navColor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>   
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <!-- menu -->
+                                <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <!-- ubicacion  -->
+                                    <a class="nav-link  itemColor" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                    <!-- galeria -->
+                                <li class="nav-item">
+                                    <a class="nav-link itemColor" href="galeria.html">Galeria</a>
+                                </li>
+                                <!-- contactanos -->
+                                <li class="nav-item">
+                                    <a class="nav-link itemColor" href="contactanos.html">Contactanos</a>
+                                </li>
+                                <!-- quienes somos -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link itemColor" href="quienesSomos.html">Quienes Somos</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+        <!-------------------------------------------------------- Ubicacion ---------------------------------------------------------------------->
+        <section class="row ">
+           
+            <div class="col-xl-6 margenTop d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://randomuser.me/api/portraits/men/47.jpg" class="card-img-top ocontaint" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Leandro Bousquet</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-xl-6 margenTop d-flex jdesktop" >
+                <div class="card" style="width: 18rem;">
+                    <img src="https://randomuser.me/api/portraits/men/81.jpg" class="card-img-top ocontaint" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Emmanuel Tosini</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

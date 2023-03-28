@@ -1,0 +1,183 @@
+/* ----------------------------------------------------------------------------------       clase general             -----------------------------------------------*/
+a{
+    font-weight: bold !important;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(102, 134, 156) !important;
+    font-size: 1.3em !important;
+    transition: .5s;
+}
+body.fondoSecundario{
+    background: linear-gradient(to right, #b0aa9a, #000);
+}
+.margen80{
+    margin-top: 80px;
+}
+.margen70{
+    margin-top: 70px;
+}
+.ml90{
+    margin-left: 90%;
+}
+.navColor{
+    background: linear-gradient(to right, #f8f7f4, #f8f9fa);
+}
+.itemColor{
+    color: #f8f7f4;
+}
+.ocontaint{
+    object-fit: cover !important;
+}
+
+
+/* -----------------------------------------------------------------------------------      index           ----------------------- ----------------------------------------------*/
+@media(min-width: 780px){
+    /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
+    .fondo{
+        height: 100vh;
+        background-image: url("../img/carpint.jpg");
+        background-size: cover;
+    }
+    header div.cardIco{
+        background: linear-gradient(to right, #8B866f, #FCD9B8);
+        margin-top: 2%;
+        margin-left: 7%;
+        width: 100px;
+        height: 150px;
+        border-radius: 0.3em;
+    }
+    header div.cardIco span{
+        font-size: 3em;
+        height: 60px;
+        width: 80px;
+        color: rgb(17, 15, 15);
+        font-family: 'Baskervville', serif;
+    }
+    header div.fontIco{
+        width: 100px;
+        height: 150px;
+        margin-top: 2%;
+        margin-left: 2%;
+        color: #055160;
+        font-family: 'Lobster', cursive;
+    } 
+    section span{
+        font-family: 'Lobster', cursive;
+        font-size: 2em;
+        margin-top: 8%;
+        color: rgb(185, 179, 179);
+    }
+    /* ----------------------------------------------------------------------------------------      pagina ubicacion  ------------------------------------------------------ */
+    section div iframe{
+        border-radius: .8em;
+    }
+    /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
+    section div i{
+        font-size: 2em;
+        color: white;
+    }
+    /* carrusel */
+    .imgnormalizada img {
+        width: 100% !important;
+        height: 600px !important;
+        object-fit: contain;
+        /* max-height: 225px !important; */
+    } 
+    .jdesktopEnd{
+         justify-content: end;
+    }
+    .jdesktopCenter{
+          justify-content: center;
+    }
+    .jdesktopStart{
+          justify-content: start;
+    }
+    .jdesktop{
+        justify-content: start;
+    }
+    .margenTop{
+        margin-top: 120px;
+    }
+    
+}
+
+@media(max-width: 780px){
+      /* ----------------------------------------------------------------------------------------      pagina index------------------------------------------------------ */
+     .sizeMobie{
+       height: 150px !important;
+    } 
+    header div.cardIco{
+        background: linear-gradient(to right, #8B866f, #FCD9B8);
+        margin-top: 2%;
+        margin-left: 7%;
+        width: 100px;
+        height: 150px;
+        border-radius: 0.3em;
+    }
+    header div.cardIco span{
+        font-size: 3em;
+        height: 60px;
+        width: 80px;
+        color: rgb(17, 15, 15);
+        font-family: 'Baskervville', serif;
+    }
+    header div.fontIco{
+        width: 100px;
+        height: 150px;
+        margin-top: 2%;
+        margin-left: 2%;
+        color: #055160;
+        font-family: 'Lobster', cursive;
+    } 
+    section span{
+        font-family: 'Lobster', cursive;
+        font-size: 2em;
+        margin-top: 8%;
+        color: rgb(185, 179, 179);
+    }
+   
+    /* ----------------------------------------------------------------------------------------      pagina ubicacion  ------------------------------------------------------ */
+    section div iframe{
+        border-radius: .8em;
+    }
+    /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
+    section div i{
+        font-size: 1.5em;
+        color: white;
+    }
+    /* .margen120{
+        margin-top: 120px;
+    } */
+    .margen70{
+        margin-top: 70px;
+    }
+    .ml90{
+        margin-left: 90%;
+    }
+    .jmobie{
+        justify-content: start !important;
+    }
+    .jdesktop{
+          justify-content: center;
+    }
+    .margenTop{
+        margin-top: 30px;
+    }
+     /* ----------------------------------------------------------------------------------------      Galleria  ------------------------------------------------------ */
+    /* carrusel */
+    .imgnormalizada img {
+        width: 100% !important;
+        height: 600px !important;
+        object-fit: contain;
+        /* max-height: 225px !important; */
+    } 
+    .margen80{
+         margin-top: 5px;
+    }
+      /* ----------------------------------------------------------------------------------------     quienesSomos  ------------------------------------------------------ */
+    .margenTotal{
+        margin: 10px;
+    }
+}
