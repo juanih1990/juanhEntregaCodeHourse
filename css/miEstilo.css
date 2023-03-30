@@ -9,14 +9,11 @@ a:hover{
     font-size: 1.3em !important;
     transition: .5s;
 }
-body.fondoSecundario{
+.body__fondoSecundario--BgColor{
     background: linear-gradient(to right, #b0aa9a, #000);
 }
 .margen80{
     margin-top: 80px;
-}
-.margen70{
-    margin-top: 70px;
 }
 .ml90{
     margin-left: 90%;
@@ -35,7 +32,7 @@ body.fondoSecundario{
 /* -----------------------------------------------------------------------------------      index           ----------------------- ----------------------------------------------*/
 @media(min-width: 780px){
     /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
-    .fondo{
+    .header__BgCard--ColorFondo{
         height: 100vh;
         background-image: url("../img/carpint.jpg");
         background-size: cover;
@@ -85,27 +82,27 @@ body.fondoSecundario{
         object-fit: contain;
         /* max-height: 225px !important; */
     } 
-    .jdesktopEnd{
+    .contactanos__AlinearItem--JustifyContentEnd{
          justify-content: end;
     }
-    .jdesktopCenter{
+    .contactanos__AlinearItem--JustifyContentCenter{
           justify-content: center;
     }
-    .jdesktopStart{
+    .contactanos__AlinearItem--JustifyContentStart{
           justify-content: start;
-    }
-    .jdesktop{
-        justify-content: start;
     }
     .margenTop{
         margin-top: 120px;
+    }
+    .footer__From--MargenTop70{
+        margin-top: 70px;
     }
     
 }
 
 @media(max-width: 780px){
       /* ----------------------------------------------------------------------------------------      pagina index------------------------------------------------------ */
-     .sizeMobie{
+     .marcas__Img--Size{
        height: 150px !important;
     } 
     header div.cardIco{
@@ -147,21 +144,15 @@ body.fondoSecundario{
         font-size: 1.5em;
         color: white;
     }
-    /* .margen120{
-        margin-top: 120px;
-    } */
-    .margen70{
+    .footer__From--MargenTop70{
         margin-top: 70px;
     }
     .ml90{
         margin-left: 90%;
     }
-    .jmobie{
+    .contactanos__AlinearItem--JustifyContentStart{
         justify-content: start !important;
-    }
-    .jdesktop{
-          justify-content: center;
-    }
+  }
     .margenTop{
         margin-top: 30px;
     }
@@ -176,8 +167,8 @@ body.fondoSecundario{
     .margen80{
          margin-top: 5px;
     }
-      /* ----------------------------------------------------------------------------------------     quienesSomos  ------------------------------------------------------ */
-    .margenTotal{
+      /* ----------------------------------------------------------------------------------------     Footer Redes   ------------------------------------------------------ */
+    .footer__RedesSociales--Margen{
         margin: 10px;
     }
 }
