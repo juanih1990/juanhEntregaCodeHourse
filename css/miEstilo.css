@@ -12,32 +12,21 @@ a:hover{
 .body__fondoSecundario--BgColor{
     background: linear-gradient(to right, #b0aa9a, #000);
 }
-.margen80{
-    margin-top: 80px;
-}
-.ml90{
-    margin-left: 90%;
-}
 .navColor{
     background: linear-gradient(to right, #f8f7f4, #f8f9fa);
 }
 .itemColor{
     color: #f8f7f4;
 }
-.ocontaint{
-    object-fit: cover !important;
-}
-
-
 /* -----------------------------------------------------------------------------------      index           ----------------------- ----------------------------------------------*/
 @media(min-width: 780px){
     /* ----------------------------------------------------------------------------------------      pagina index  ------------------------------------------------------ */
-    .header__BgCard--ColorFondo{
+    header div.header__CardLogo--ColorFondo{
         height: 100vh;
         background-image: url("../img/carpint.jpg");
         background-size: cover;
     }
-    header div.cardIco{
+    header div.header__CardLogo--Title{
         background: linear-gradient(to right, #8B866f, #FCD9B8);
         margin-top: 2%;
         margin-left: 7%;
@@ -45,14 +34,14 @@ a:hover{
         height: 150px;
         border-radius: 0.3em;
     }
-    header div.cardIco span{
+    header div.header__CardLogo--Title span{
         font-size: 3em;
         height: 60px;
         width: 80px;
         color: rgb(17, 15, 15);
         font-family: 'Baskervville', serif;
     }
-    header div.fontIco{
+    header div.header__CardLogo--SubTitle{
         width: 100px;
         height: 150px;
         margin-top: 2%;
@@ -70,18 +59,19 @@ a:hover{
     section div iframe{
         border-radius: .8em;
     }
-    /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
-    section div i{
-        font-size: 2em;
-        color: white;
-    }
+    /* ----------------------------------------------------------------------------------------      Galeria  ------------------------------------------------------ */
     /* carrusel */
-    .imgnormalizada img {
+    .carousel__imgnormalizada img {
         width: 100% !important;
         height: 600px !important;
         object-fit: contain;
         /* max-height: 225px !important; */
     } 
+    /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
+    section div i{
+        font-size: 2em;
+        color: white;
+    }
     .contactanos__AlinearItem--JustifyContentEnd{
          justify-content: end;
     }
@@ -91,21 +81,27 @@ a:hover{
     .contactanos__AlinearItem--JustifyContentStart{
           justify-content: start;
     }
-    .margenTop{
+    .section__CardDirecciones--MargenTop{
         margin-top: 120px;
     }
     .footer__From--MargenTop70{
         margin-top: 70px;
+    }  
+    /* ----------------------------------------------------------------------------------------      ¿Quienes Somos?  ------------------------------------------------------ */
+    .section__CardImg--MargenTop{
+        margin-top: 80px;
     }
-    
+    .section__CardImg--ocontaint{
+        object-fit: cover !important;
+    }
 }
 
 @media(max-width: 780px){
       /* ----------------------------------------------------------------------------------------      pagina index------------------------------------------------------ */
-     .marcas__Img--Size{
+    .marcas__Img--Size{
        height: 150px !important;
     } 
-    header div.cardIco{
+    header div.header__CardLogo--Title{
         background: linear-gradient(to right, #8B866f, #FCD9B8);
         margin-top: 2%;
         margin-left: 7%;
@@ -113,14 +109,14 @@ a:hover{
         height: 150px;
         border-radius: 0.3em;
     }
-    header div.cardIco span{
+    header div.header__CardLogo--Title span{
         font-size: 3em;
         height: 60px;
         width: 80px;
         color: rgb(17, 15, 15);
         font-family: 'Baskervville', serif;
     }
-    header div.fontIco{
+    header div.header__CardLogo--SubTitle{
         width: 100px;
         height: 150px;
         margin-top: 2%;
@@ -134,7 +130,9 @@ a:hover{
         margin-top: 8%;
         color: rgb(185, 179, 179);
     }
-   
+    .footer__RedesSociales--Margen{
+        margin: 10px;
+    }
     /* ----------------------------------------------------------------------------------------      pagina ubicacion  ------------------------------------------------------ */
     section div iframe{
         border-radius: .8em;
@@ -147,28 +145,28 @@ a:hover{
     .footer__From--MargenTop70{
         margin-top: 70px;
     }
-    .ml90{
-        margin-left: 90%;
-    }
-    .contactanos__AlinearItem--JustifyContentStart{
+    .contactanos__AlinearItem--JustifyContentStartMobie{
         justify-content: start !important;
   }
-    .margenTop{
+    .section__CardDirecciones--MargenTop{
         margin-top: 30px;
     }
      /* ----------------------------------------------------------------------------------------      Galleria  ------------------------------------------------------ */
-    /* carrusel */
-    .imgnormalizada img {
+    .carousel__imgnormalizada img {
         width: 100% !important;
         height: 600px !important;
         object-fit: contain;
         /* max-height: 225px !important; */
     } 
-    .margen80{
+    .section__Carousel--MargenTop{
          margin-top: 5px;
     }
-      /* ----------------------------------------------------------------------------------------     Footer Redes   ------------------------------------------------------ */
-    .footer__RedesSociales--Margen{
-        margin: 10px;
+     /* ----------------------------------------------------------------------------------------      ¿Quienes Somos?  ------------------------------------------------------ */
+    .section__CardImg--MargenTopMobie{
+        margin-top: 30px;
     }
+    .contactanos__AlinearItem--JustifyContentCenterMobie{
+        justify-content: center;
+    }
+
 }
