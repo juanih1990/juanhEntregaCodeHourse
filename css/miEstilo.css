@@ -68,6 +68,9 @@ a:hover{
         object-fit: contain;
         /* max-height: 225px !important; */
     } 
+    .section__Carousel--MargenTop{
+        margin-top: 50px;
+   }
     /* ----------------------------------------------------------------------------------------      Contactanos  ------------------------------------------------------ */
     section div i{
         font-size: 2em;
@@ -159,7 +162,7 @@ a:hover{
         object-fit: contain;
         /* max-height: 225px !important; */
     } 
-    .section__Carousel--MargenTop{
+    .section__Carousel--MargenTopMobie{
          margin-top: 5px;
     }
      /* ----------------------------------------------------------------------------------------      ¿Quienes Somos?  ------------------------------------------------------ */
